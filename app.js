@@ -15,6 +15,6 @@ app.get("/", (req,res) => {
 app.use("/api/v1", auth);
 app.use("/api/v2", list);
 
-app.listen(3000, () => {
+app.listen(1000, () => {
     console.log("Server started successfully");
 });
